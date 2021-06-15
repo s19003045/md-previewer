@@ -14,8 +14,8 @@ const DesktopFooter = ({ authorize }) => {
     /** 可以設定 RWD: desktop 整體樣式 */
     return (
         <Box
-            position="absolute"
-            bottom="0px"
+            // position="absolute"
+            // bottom="0px"
             m={0}
             p={0}
             width="100%"

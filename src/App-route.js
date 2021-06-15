@@ -1,5 +1,5 @@
 import Home from "./components/Home/index";
-import User from "./components/User/index";
+import MdPreview from "./components/MdPreview";
 //
 const routes = [
     {
@@ -13,14 +13,14 @@ const routes = [
         component: Home,
     },
     {
-        key: "route-about",
-        name: "user",
-        path: "/user",
+        key: "route-MdPreview",
+        name: "MdPreview",
+        path: "/MdPreview",
         withHeader: true,
         withFooter: true,
         public: true, // 若在維護開發中請設定 false
         authority: null,
-        component: User,
+        component: MdPreview,
     },
 ];
 
