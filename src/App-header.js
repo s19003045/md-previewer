@@ -10,6 +10,14 @@ export const menus = {
             position: "left",
             // authority: authority.Browse
         },
+        {
+            id: "menu-left-02",
+            label: "MD Demo",
+            path: "/MdDemo",
+            public: true,
+            position: "left",
+            // authority: authority.Browse
+        },
     ],
     menuRight: []
 }

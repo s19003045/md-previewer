@@ -1,0 +1,18 @@
+ul li::marker {
+    color: slateblue;
+}
+ul li {
+    color: #1f6feb;
+}
+ol li::marker {
+    color: slateblue;
+}
+ol li {
+    color: #1f6feb;
+}
+
+blockquote p {
+    border-left: 5px grey solid;
+    padding-left: 30px;
+    font-weight: bold;
+}

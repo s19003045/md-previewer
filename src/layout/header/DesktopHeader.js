@@ -43,13 +43,15 @@ const DesktopHeader = ({ authorize }) => {
                                 <HomeIcon />
                             </IconButton>
                             {Array.isArray(menus.menuLeft) && menus.menuLeft.map(menu => (
-                                <Button key={menu.id} variant="outlined" color="inherit" href={menu.path} onClick={(e) => handleClickMenu(e)}>
-                                    <Box>
-                                        <Typography key={menu.id} variant="h6" className={classes.title}>
-                                            {menu.label}
-                                        </Typography>
-                                    </Box>
-                                </Button>
+                                <Box key={menu.id} mx={2}>
+                                    <Button key={menu.id} size="small" variant="outlined" color="inherit" href={menu.path} onClick={(e) => handleClickMenu(e)}>
+                                        <Box>
+                                            <Typography key={menu.id} variant="h6" className={classes.title}>
+                                                {menu.label}
+                                            </Typography>
+                                        </Box>
+                                    </Button>
+                                </Box>
                             ))}
                             {/*<Button color="inherit">Login</Button>*/}
                         </Toolbar>

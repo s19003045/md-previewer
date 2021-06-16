@@ -1,5 +1,6 @@
 import Home from "./components/Home/index";
 import MdPreview from "./components/MdPreview";
+import MdDemo from "./components/MdDemo";
 //
 const routes = [
     {
@@ -21,6 +22,16 @@ const routes = [
         public: true, // 若在維護開發中請設定 false
         authority: null,
         component: MdPreview,
+    },
+    {
+        key: "route-MdDemo",
+        name: "MdDemo",
+        path: "/MdDemo",
+        withHeader: true,
+        withFooter: true,
+        public: true, // 若在維護開發中請設定 false
+        authority: null,
+        component: MdDemo,
     },
 ];
 

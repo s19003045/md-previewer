@@ -1,19 +1,18 @@
-export const text = `
 
 # Markdown syntax guide
 
 ## Headers
 
 # This is a Heading h1
-## This is a Heading h2 
+## This is a Heading h2
 ###### This is a Heading h6
 
 ## Emphasis
 
-*This text will be italic*  
+*This text will be italic*
 _This will also be italic_
 
-**This text will be bold**  
+**This text will be bold**
 __This will also be bold__
 
 _You **can** combine them_
@@ -32,8 +31,8 @@ _You **can** combine them_
 1. Item 1
 1. Item 2
 1. Item 3
-  1. Item 3a
-  1. Item 3b
+1. Item 3a
+1. Item 3b
 
 ## Images
 
@@ -49,6 +48,27 @@ You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
 >
 >> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
 
+
+## Bold
+I am thin **I am bold** I am thin.
+
+## Mark text with HTML tag <mark>
+I am thin <mark>I ame bold</mark>  I am thin
+
+
+## Line break
+I am the first line.
+I am the second line .
+
+
+## Paragraph
+I am first paragraph.
+
+I ame the second paragraph.
+
+
+
+
 ## Tables
 
 
@@ -56,18 +76,18 @@ You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
 
 ## Javascript code
 
-\`\`\`javascript
+```javascript
     let message = 'Hello world';
     alert(message);
-\`\`\`
+```
 
 
 ## HTML code
 
-\`\`\`html
-    \<h1\>Hello world\<\/h1\>
-\`\`\`
+```html
+    <h1>Hello world</h1>
+```
 
 ## Inline code
 
-This web site is using \`markedjs/marked\`.`
+This web site is using `mark
