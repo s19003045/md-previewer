@@ -21,10 +21,10 @@ module.exports = {
         //
         "react/prop-types": [0],
         // testing-library
-        "testing-library/await-async-query": "error",
-        "testing-library/no-await-sync-query": "error",
-        "testing-library/no-debug": "warn",
-        "testing-library/no-dom-import": "off",
+        // "testing-library/await-async-query": "error",
+        // "testing-library/no-await-sync-query": "error",
+        // "testing-library/no-debug": "warn",
+        // "testing-library/no-dom-import": "off",
     },
     overrides: [
         {

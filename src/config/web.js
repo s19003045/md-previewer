@@ -1,6 +1,6 @@
 // config for production
 const config = {
-    domain: "lcoalhost:5000",
+    domain: "http://localhost:5000",
     token: "",
 };
 

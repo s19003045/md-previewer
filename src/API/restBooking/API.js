@@ -7,8 +7,9 @@ const domain = isDevelopment() ? devConfig.domain : config.domain;
 const API = {
     domain: domain,
     // testing API
-    test: () => `${domain}/test`,
+    test: `${domain}/test`,
     //
+    getMdFile: `${domain}/randomMD`,
 };
 
 export default API;
